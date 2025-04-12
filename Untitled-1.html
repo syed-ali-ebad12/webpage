@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Simple Responsive Webpage</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">MyWebsite</div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#intro">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <h1>Welcome to My Website</h1>
+      <p>Your success starts here.</p>
+      <a href="#contact" class="btn">Get Started</a>
+    </section>
+
+    <section id="intro">
+      <h2>About Us</h2>
+      <p>We provide high-quality digital solutions to help your business grow and succeed online.</p>
+    </section>
+
+    <section id="services">
+      <h2>Our Services</h2>
+      <ul>
+        <li>Web Development</li>
+        <li>SEO Optimization</li>
+        <li>Digital Marketing</li>
+      </ul>
+    </section>
+
+    <section id="testimonials">
+      <h2>Testimonials</h2>
+      <blockquote>
+        "This company transformed our online presence. Highly recommended!" - Jane Doe
+      </blockquote>
+      <blockquote>
+        "Professional and efficient service. Will work with them again." - John Smith
+      </blockquote>
+    </section>
+
+    <section id="contact">
+      <h2>Contact Us</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required/>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required/>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 MyWebsite. All rights reserved.</p>
+  </footer>
+</body>
+</html>
